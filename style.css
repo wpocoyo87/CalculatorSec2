@@ -1,0 +1,24 @@
+.calculator td {
+  border: none;
+  width: 200px;
+  height: 100px;
+}
+
+.calculator .display {
+  height: 3rem;
+}
+
+.calculator .display input {
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
+.calculator .display input:disabled {
+  background-color: white;
+}
+
+.calculator td button {
+  height: 100%;
+  width: 100%;
+  font-size: 2rem;
+}
